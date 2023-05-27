@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="555.0" style="-fx-background-color: #eaf1f3;" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finaloop.BorrowersController">
+   <children>
+      <TableView fx:id="StuffBorrowTableVeiw" layoutX="41.0" layoutY="58.0" prefHeight="318.0" prefWidth="480.0">
+         <columns>
+            <TableColumn prefWidth="123.0" text="Borrower No." />
+            <TableColumn prefWidth="114.0" text="Book number" />
+            <TableColumn prefWidth="121.0" text="Loan date" />
+            <TableColumn prefWidth="122.0" text="Return date" />
+         </columns>
+      </TableView>
+      <TextField layoutX="302.0" layoutY="25.0" />
+      <Button layoutX="469.0" layoutY="25.0" mnemonicParsing="false" onAction="#SearchAction" text="Search" />
+      <RadioButton layoutX="41.0" layoutY="29.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton layoutX="156.0" layoutY="29.0" mnemonicParsing="false" text="RadioButton" />
+      <Button layoutX="186.0" layoutY="384.0" mnemonicParsing="false" onAction="#CancelAction" prefHeight="30.0" prefWidth="191.0" style="-fx-background-color: #4a8293;" text="Cancel" textFill="WHITE" />
+   </children>
+</AnchorPane>

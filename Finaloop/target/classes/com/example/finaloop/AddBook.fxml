@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="600.0" style="-fx-background-color: #eaf1f3;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finaloop.AddBookController">
+   <children>
+      <Label layoutX="250.0" layoutY="37.0" text="Add Book" textFill="#367588">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="100.0" text="Book Number">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="182.0" text="Author">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="231.0" text="Publisher">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="265.0" layoutY="95.0" prefHeight="30.0" prefWidth="251.0" />
+      <TextField layoutX="265.0" layoutY="135.0" prefHeight="30.0" prefWidth="251.0" />
+      <TextField layoutX="265.0" layoutY="176.0" prefHeight="30.0" prefWidth="251.0" />
+      <TextField layoutX="265.0" layoutY="216.0" prefHeight="30.0" prefWidth="251.0" />
+      <TextField layoutX="265.0" layoutY="344.0" prefHeight="30.0" prefWidth="251.0" />
+      <Button layoutX="252.0" layoutY="400.0" mnemonicParsing="false" onAction="#AddBookAction" prefHeight="30.0" prefWidth="264.0" style="-fx-background-color: #367588;" text="Add Book" textFill="WHITE" />
+      <Button layoutX="84.0" layoutY="400.0" mnemonicParsing="false" onAction="#CancelAction" prefHeight="30.0" prefWidth="157.0" style="-fx-background-color: #4a8293;" text="Cancel" textFill="WHITE" />
+      <Label layoutX="89.0" layoutY="308.0" text="Value Fine">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="265.0" layoutY="302.0" prefHeight="30.0" prefWidth="251.0" />
+      <Label layoutX="89.0" layoutY="273.0" text="Number copy">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="265.0" layoutY="258.0" prefHeight="30.0" prefWidth="251.0" />
+      <Label layoutX="89.0" layoutY="141.0" text="Title Book">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="89.0" layoutY="350.0" text="Edition book">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

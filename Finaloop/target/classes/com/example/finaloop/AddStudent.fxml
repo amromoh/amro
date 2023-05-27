@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="526.0" style="-fx-background-image: #eaf1f3;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finaloop.AddStudentController">
+   <children>
+      <TextField layoutX="225.0" layoutY="128.0" prefHeight="30.0" prefWidth="227.0" />
+      <Label layoutX="73.0" layoutY="124.0" prefHeight="30.0" prefWidth="65.0" text="First name">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="176.0" text="Last  name">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="222.0" text="id number">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="262.0" text="mager">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField layoutX="225.0" layoutY="175.0" prefHeight="30.0" prefWidth="227.0" />
+      <TextField layoutX="226.0" layoutY="219.0" prefHeight="30.0" prefWidth="227.0" />
+      <TextField layoutX="227.0" layoutY="263.0" prefHeight="30.0" prefWidth="227.0" />
+      <Button layoutX="222.0" layoutY="316.0" mnemonicParsing="false" onAction="#AddStudentAction" prefHeight="30.0" prefWidth="233.0" style="-fx-background-color: #367588;" text="Add Student" textFill="WHITE" />
+      <Button layoutX="72.0" layoutY="316.0" mnemonicParsing="false" onAction="#CancelAction" prefHeight="30.0" prefWidth="141.0" style="-fx-background-color: #4a8293;" text="Cancel" textFill="WHITE" />
+      <Label layoutX="208.0" layoutY="69.0" text="Add Student" textFill="#367588">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
